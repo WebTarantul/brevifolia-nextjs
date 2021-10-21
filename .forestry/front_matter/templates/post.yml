@@ -1,4 +1,10 @@
 ---
 label: Post
 hide_body: true
-fields: []
+fields:
+- name: simple_text
+  type: text
+  config:
+    required: false
+  label: Simple text
+  description: Text<strong> test</strong>
