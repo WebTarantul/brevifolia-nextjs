@@ -4,11 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: dir
+  label: Directory
+  create: all
+  match: "**/*"
+- type: heading
+  label: Heading
 - type: document
   path: test
   label: dcdsc
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
